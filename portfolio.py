@@ -12,6 +12,8 @@ class Stock(object):
 
     def get_price(self, _date):
         # _date unused because the price is random for example porpuses
+        # Historical prices can be obtained with diferent services/libraries 
+        # https://www.linkedin.com/posts/jos%C3%A9-alejandro-betancourt-montellano-4477065b_fintech-stocks-python-activity-7306064418457464833-TAIy?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAy9rvcBIHJim4Zftl6-Yvhj5U2mNek4Ozs
         return random.random() * 100
 
 
